@@ -1,0 +1,22 @@
+{
+    "id": "b56c04e3",
+    "name": "Conversion Optimisation Checklist",
+    "version": "0.0.1",
+    "description": "This is a checklist of potential fixes/options you could add to your checkout flow to help increase conversions.",
+    "summary": "A checklist of checkout optimisations.",
+    "languages": ["en"],
+    "author": "Rob Mehew",
+    "helpUrl": "https://mywebsite.com/help",
+    "host": {
+      "app": "XD",
+      "minVersion": "13.0"
+    },
+    "uiEntryPoints": [
+      {
+        "type": "menu",
+        "label": "Conversion Checklist",
+        "commandId": "main",
+        "shortcut": { "mac": "Cmd+Alt+O", "win": "Ctrl+Alt+O" }
+      }
+    ]
+  }
